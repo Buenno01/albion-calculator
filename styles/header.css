@@ -1,0 +1,30 @@
+.header{
+    background-color: var(--dark-grey);
+    padding: 1em;
+}
+
+.nav__bar{
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu{
+    display: none;
+}
+
+.menu__btn{
+    background-image: url('https://w7.pngwing.com/pngs/530/543/png-transparent-computer-icons-x-mark-check-mark-symbol-thumbnail.png');
+
+}
+
+.nav__search{
+    background-color: var(--medium-grey);
+    border: none;
+    font-family: var(--font-family);
+}
+
+.nav__search::placeholder{
+    color: var(--light-grey);
+    padding: 1em 2em 1em 1em;
+    background-image: url('');
+}

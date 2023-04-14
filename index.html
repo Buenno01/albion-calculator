@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Albion Calculator</title>
+    <link rel="icon" src="#">
+    <link rel="stylesheet" href="styles/reset.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="header">
+        <nav class="nav__bar">
+            <ul class="nav__list">
+                <label for="menu__btn" class="menu__btn"></label>
+                <button class="menu" type="button" id="menu__btn"></button>
+                <input type="search" class="nav__search" placeholder="Search for a item."></input type="search">
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div class="item__info">
+            <img class="item__img" height="217px" width="217px" src="https://render.albiononline.com/v1/item/T4_2H_DUALAXE_KEEPER@1">
+            <h2 class="item__name">Patas de urso</h2>
+            <ul class="item__description">
+                <li class="item__description__text" data-tier>T4</li>
+                <li class="item__description__text" data-enchantment>uncommon</li>
+                <li class="item__description__text" data-sellingPrice>135000</li>
+                <li class="item__description__text" data-productionPrice>121050</li>
+            </ul>
+        </div>
+
+        <section class="dashboard__container">
+            <nav class="dashboard__menu">
+                <button class="dashboard__nav" type="checkbox" data-materials>Materials</button>
+                <p class="dashboard__nav__separation">|</p>
+                <button class="dashboard__nav" type="checkbox" data-profit>Profit</button>
+                <p class="dashboard__nav__separation">|</p>
+                <button class="dashboard__nav" type="checkbox" data-settings>Settings</button>
+            </nav>
+            <div class="content__holder">
+                <ul class="materials__list">
+                    <li class="material">
+                        <img data-material-image width="70px" height="70px" src="https://render.albiononline.com/v1/item/T4_METALBAR_LEVEL1">
+                        <section class="material__info">
+                            <p class="material__name">Steel bar (T4.1)</p>
+                            <p class="material__price">400 <i class="fa fa-solid"></i></p>
+                        </section>
+                    </li>
+                </ul>
+            </div>
+        </section>
+    </main>
+
+    <script src="main.js" type="module"></script>
+</body>
+</html>
